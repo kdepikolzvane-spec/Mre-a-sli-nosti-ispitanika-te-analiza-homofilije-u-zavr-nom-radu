@@ -126,6 +126,31 @@ U kojem trenutku AI slika postaje "dovoljno stvarna"? Naše istraživanje sugeri
 #### 7.5 Kako AI "razmišlja" o realizmu
 Sam model (Generator) ne teži realnosti u filozofskom smislu, već teži **pobjedi nad Diskriminatorom**. Za AI model, "znakovi realizma" su zapravo statističke podudarnosti. Slika mu je "vještačka" ako odudara od distribucije podataka na kojima je treniran. Paradoksalno, AI model stvara realizam kroz neprestano sumnjanje u sebe (G-D natjecanje), dok čovjek realizam prihvaća kroz povjerenje u viđeno.
 
+### 8. Tehnološka arhitektura sustava za mrežnu analizu (App Data Flow)
+
+Kao sastavni dio ovog seminara razvijena je interaktivna aplikacija koja omogućuje mrežnu vizualizaciju podataka u stvarnom vremenu. Ispod je prikazan tehnički tijek podataka:
+
+```mermaid
+graph TD
+    Sub_Data[surveyData.ts] -->|Kalkulacija točnosti| Data_Proc(Obrađeni podaci ispitanika)
+    
+    subgraph UI_State [Stanje aplikacije i filteri]
+        State_Thres[Prag sličnosti]
+        State_MinAcc[Filter min. točnosti]
+    end
+
+    Data_Proc -->|Filtriranje| Data_Filtered(Filtrirani set podataka)
+    
+    Data_Filtered & State_Thres -->|buildGraph Utility| Graph_Data(Čvorovi i bridovi)
+    Graph_Data --> Vis_D3[NetworkGraph: D3.js vizualizacija]
+
+    Data_Filtered & State_Thres -->|Kontekstualni podaci| AI_Svc[AI Servis: Gemini API]
+    UI_Chat[ChatBox sučelje] -->|Korisnički upit| AI_Svc
+    AI_Svc -->|Analiza| UI_Chat
+```
+
+Aplikacija omogućuje istraživaču da dinamički mijenja pragove sličnosti, čime se u realnom vremenu mijenja topologija mreže, otkrivajući skrivene korelacije unutar demografskih skupina.
+
 ---
 
 ### Reference
