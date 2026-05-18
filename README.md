@@ -37,6 +37,37 @@ Analiza pokazuje da studenti (19-25 god) pokazuju visoku grupnu koheziju u mrež
 ## 4. Rasprava i Zaključak (Discussion & Conclusion)
 Rezultati sugeriraju da mlađi ispitanici češće prepoznaju specifične "AI artefakte" (poput tekstura kože i neprirodnih položaja tijela na slici "Fire Escape Collapse"), unatoč visokoj kvaliteti generacije. Mrežni graf potvrđuje da sličnost u percepciji često prati linije demografske sličnosti, što otvara prostor za daljnja istraživanja o vizualnoj pismenosti u eri generativnih medija.
 
+## 5. Tehnološki okvir i protok podataka (App Data Flow)
+
+Ispod je prikazan tehnički tijek podataka unutar aplikacije, od obrade sirovih podataka ankete do AI analize u stvarnom vremenu.
+
+```mermaid
+graph TD
+    %% Data Source
+    Sub_Data[surveyData.ts] -->|Kalkulacija točnosti| Data_Proc(Obrađeni podaci ispitanika)
+
+    %% UI State & Logic
+    subgraph UI_State [Stanje aplikacije i filteri]
+        State_Thres[Prag sličnosti]
+        State_MinAcc[Filter min. točnosti]
+    end
+
+    Data_Proc -->|Filtriranje| Data_Filtered(Filtrirani set podataka)
+    State_MinAcc -.-> Data_Filtered
+
+    %% Statistics
+    Data_Filtered -->|Analiza| Stats_Global[Globalna statistika]
+
+    %% Network Logic
+    Data_Filtered & State_Thres -->|buildGraph Utility| Graph_Data(Čvorovi i bridovi)
+    Graph_Data --> Vis_D3[NetworkGraph: D3.js vizualizacija]
+
+    %% AI Integration
+    Data_Filtered & State_Thres -->|Kontekstualni podaci| AI_Svc[AI Servis: Gemini API]
+    UI_Chat[ChatBox sučelje] -->|Korisnički upit| AI_Svc
+    AI_Svc -->|Analiza| UI_Chat
+```
+
 ---
 **Predmet:** Seminar: Umjetna Inteligencija i Društvo  
 **Datum:** 18. svibnja 2026.  
