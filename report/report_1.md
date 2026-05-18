@@ -1,8 +1,11 @@
 # Percepcija Realnosti u Doba Umjetne Inteligencije: Mrežna i Demografska Analiza Vizualne Diskriminacije
 
 **Autor:** Katarina Depikolzvane 
+
 **Institucija:** Sveučilište u Rijeci, Filozofski fakultet
+
 **Predmet:** Seminar iz Kolegija: Istraživanje društvenih mreža
+
 **Datum:** 18. svibnja 2026.  
 
 ---
