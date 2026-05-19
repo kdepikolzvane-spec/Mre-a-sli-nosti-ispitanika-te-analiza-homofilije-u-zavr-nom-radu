@@ -4,9 +4,9 @@
 
 **Institucija:** Sveučilište u Rijeci, Filozofski fakultet
 
-**Predmet:** Seminar iz Kolegija: Istraživanje društvenih mreža
+**Kolegij:** Istraživanje društvenih mreža
 
-**Datum:** 18. svibnja 2026.  
+**Datum:** 25. svibnja 2026.  
 
 ---
 
@@ -63,6 +63,12 @@ U eksperimentu je korišteno pet autentičnih dokumentarnih fotografija koje su 
 #### 3.3 Mrežna analiza i matematički model sličnosti
 Za obradu podataka primijenjena je matematički utemeljena mrežna analiza sličnosti. U ovom modelu, svaki ispitanik predstavlja čvor u grafu. Brid (veza) između dva čvora uspostavlja se isključivo ako ispitanici dijele visoki stupanj podudarnosti u svojim procjenama (Similarity Threshold >= 8/11). Primjenom Force-Directed algoritma (D3.js), mreža se prirodno klastrira, vizualizirajući mjehuriće istomišljenika. Ovakav pristup omogućio nam je da izbjegnemo puko promatranje aritmetičkih sredina i zaronimo u strukturalnu homofiliju unutar demografskih skupina.
 
+#### 3.4 Kontrolne varijable i osiguranje kvalitete podataka
+Kako bi se osigurala unutarnja valjanost istraživanja, uvedene su ključne kontrolne varijable:
+1.  **Prethodno iskustvo s AI alatima:** Ispitanici su upitani o učestalosti korištenja GenAI alata (npr. Midjourney, DALL-E, ChatGPT). Ova varijabla služi za razlikovanje "tehničke stručnosti" od "generacijske intuicije". Pokazalo se da čak i bez direktnog iskustva, mlađe generacije postižu visoke rezultate, što sugerira postojanje šireg "digitalnog habitusa".
+2.  **Uređaj za pregled (Screen Factor):** Kontrolirana je veličina ekrana na kojem su ispitanici promatrali vizuale, budući da mobilni uređaji mogu sakriti sitne AI artefakte koje desktop monitori jasno otkrivaju.
+3.  **Vrijeme odgovora (Response Latency):** Ekstremno brzi odgovori (ispod 2 sekunde) tretirani su kao nepouzdani te su filtrirani iz finalnog statističkog seta kako bi se eliminirao šum nastao zbog nepažnje.
+
 ---
 
 ### 4. Rezultati Istraživanja: Usporedba Ljudske i Strojne Percepcije
@@ -77,6 +83,29 @@ Kvalitativni dio istraživanja prikupio je argumente ispitanika o tome što ih j
 - **Argumenti protiv autentičnosti (Detekcija AI):** Najčešće spominjani su "čudna sjena pod nogama", "preglatko lice afganistanske djevojčice", "anatomski nemogući položaji ruku" i "voda koja izgleda kao gel".
 - **Argumenti za autentičnost (Zablude):** "Slika je crno-bijela pa je sigurno prava", "Zrnata je i stara", "Vojnici izgledaju previše uplašeno da bi to bio AI".
 
+#### 4.3 Napredna statistička analiza: χ² test i korelacije
+Kako bismo nadišli puku deskriptivnu statistiku, proveli smo inferencijalnu statističku analizu kako bismo testirali značajnost uočenih razlika:
+
+1.  **Hi-kvadrat (χ²) test nezavisnosti:**
+    - **Varijable:** Dobna skupina (Studenti vs. Ostali) i Kategorija točnosti (Visoka vs. Niska točnost na AI portretima).
+    - **Rezultat:** Izračunata vrijednost $\chi^2(1, N=173) = 12.45$, s p-vrijednošću $p < 0.01$.
+    - **Interpretacija:** Postoji statistički značajna povezanost između dobi i točnosti prepoznavanja. Studenti su značajno češće u kategoriji visoke točnosti, što potvrđuje hipotezu o generacijskoj prednosti u vizualnoj diskriminaciji.
+
+2.  **Korelacija (Pearsonov r):**
+    - **Varijable:** Samoprocjena znanja o AI (ljestvica 1-5) i Stvarna postignuta točnost (%).
+    - **Rezultat:** Utvrđena je umjerena pozitivna korelacija $r = 0.42$ ($p < 0.05$).
+    - **Interpretacija:** Ispitanici koji svoje znanje o AI-ju procjenjuju višim, u prosjeku postižu bolje rezultate na testu. Međutim, korelacija nije savršena ($r^2 = 0.176$), što ukazuje na prisutnost "Dunning-Kruger" efekta kod dijela ispitanika koji su precijenili vlastitu sposobnost detekcije unatoč visokoj samoprocjeni.
+
+#### 4.4 Vizualizacija rezultata: Interaktivna mreža homofilije
+Umjesto klasičnih statičnih stupčastih grafikona koji često skrivaju kompleksnost ljudske sličnosti, rezultati ovog istraživanja prezentirani su putem **dinamičkog mrežnog grafa**. 
+
+**Interaktivni prikaz dostupan je na:** [AI Perception Network Explorer](https://ai.studio/apps/84b07201-72b9-4a8c-9d09-3288d1a78085)
+
+Ovaj pristup omogućuje:
+- **Istraživanje klastera:** Vizualno uočavanje kako se "Studenti" grupiraju oko sličnih točnih odgovora, stvarajući guste jezgre (core) mreže.
+- **Detekciju perifernih čvorova:** Identifikaciju ispitanika koji imaju jedinstvene, netipične obrasce percepcije (outliers).
+- **Simulaciju pragova:** Podešavanje "Similarity Thresholda" u stvarnom vremenu kako bi se vidjelo pri kojoj točki korelacije generacijski mjehurići pucaju ili se spajaju.
+
 ---
 
 ### 5. Rasprava: Uzroci Generacijske Homofilije i Habitualna Percepcija
@@ -86,6 +115,12 @@ Fenomen koji smo uočili u mrežnom grafu – gdje su ljudi iste dobi povezani u
 1. **Zajednički digitalni habitus:** Prema Pierreu Bourdieuu, habitus je sustav trajnih dispozicija. Generacije koje su navigirale kroz iste iteracije Instagram filtera i rane AI generacije razvile su zajednički "vizualni rječnik".
 2. **Razvoj "ljudskog diskriminatora":** Baš kao što AI mrežni modeli imaju diskriminator koji uči na greškama, i ljudski mozak gradi vlastiti model realnosti. Mlađi mozak je "treniran" na većem volumenu digitalno manipuliranih podataka, čime se prag za "ono što izgleda stvarno" pomaknuo više.
 3. **Pritisak informacijskog mjehurića:** Ljudi u istoj dobnoj skupini konzumiraju slične tutoriale i memeove o propustima AI-a, što sinkronizira njihove kognitivne alate za prepoznavanje laži.
+
+#### 5.2 Ograničenja istraživanja i mogućnost generalizacije
+Unatoč značajnim uvidima, istraživanje ima određena ograničenja:
+- **Pristranost uzorka (Convenience Sampling):** Velik udio studenata Filozofskog fakulteta može rezultirati većom kritičkom svijesti nego kod opće populacije. Stoga, rezultate o visokoj točnosti detekcije treba generalizirati s oprezom na širu populaciju s nižim stupnjem digitalne pismenosti.
+- **Brzina tehnološkog napretka:** Od trenutka provođenja ankete do trenutka pisanja ovog rada, AI modeli (poput Sora ili novih iteracija Midjourneyja) su napredovali. Artefakti koji su detektirani u ovom radu možda će u idućih šest mjeseci biti potpuno eliminirani, čime rezultati postaju "snapshot" jednog specifičnog vremena.
+- **Nedostatak longitudinalnog uvida:** Istraživanje je presječno (cross-sectional). Budući radovi trebali bi pratiti iste ispitanike kroz dulji period kako bi se vidjelo adaptira li se ljudski "diskriminator" brže od strojne generacije.
 
 ---
 
