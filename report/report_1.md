@@ -137,7 +137,9 @@ U primijenjenoj anketi, uz binarni izbor (Stvarno/AI), ispitanici su koristili i
 #### 6.2 Diskusija: Prag "dovoljne stvarnosti"
 U kojem trenutku AI slika postaje "dovoljno stvarna"? Naše istraživanje sugerira da je to trenutak kada se uklone logičke pogreške u sjenama i kada broj udova postane ispravan. Kada AI dostigne taj prag, gledatelj prestaje analizirati sliku kao objekt i počinje je doživljavati kao događaj. Kontekst povijesti ovdje igra ulogu filtera – ako slika izgleda kao poznata povijesna scena, mozak "popunjava rupe" i prihvaća je bez otpora.
 
-Sam model (Generator) ne teži realnosti u filozofskom smislu, već teži **pobjedi nad Diskriminatorom**. Za AI model, "znakovi realizma" su zapravo statističke podudarnosti. Slika mu je "vještačka" ako odudara od distribucije podataka na kojima je treniran. Paradoksalno, AI model stvara realizam kroz neprestano sumnjanje u sebe (G-D natjecanje), dok čovjek realizam prihvaća kroz povjerenje u viđeno.
+Sam model (Generator) ne teži realnosti u filozofskom smislu, već teži **pobijedi nad Diskriminatorom**. Za AI model, "znakovi realizma" su zapravo statističke podudarnosti. Slika mu je "vještačka" ako odudara od distribucije podataka na kojima je trtiran. Paradoksalno, AI model stvara realizam kroz neprestano sumnjanje u sebe (G-D natjecanje), dok čovjek realizam prihvaća kroz povjerenje u viđeno.
+
+
 ---
 
 ### 7. Tehnološka arhitektura sustava za mrežnu analizu (App Data Flow)
