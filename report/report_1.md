@@ -164,8 +164,9 @@ graph TD
     UI_Chat[ChatBox sučelje] -->|Korisnički upit| AI_Svc
     AI_Svc -->|Analiza| UI_Chat
 ```
+Aplikacija omogućava istraživaču da dinamički mijenja pragove sličnosti, čime se u realnom vremenu mijenjaju topologija mreže, otkrivajući skrivene korelacije unutar demografskih skupina.
 
-Aplikacija omogućuje istraživaču da dinamički mijenja pragove sličnosti, čime se u realnom vremenu mijenja topologija mreže, otkrivajući skrivene korelacije unutar demografskih skupina.
+
 ---
 
 ### 8. Zaključak: Sinteza i Budućnost Vizualne Kulture
