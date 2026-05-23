@@ -20,10 +20,8 @@ Ovaj seminarski rad bavi se kritičkom analizom ljudske sposobnosti razlikovanja
 #### 1.1 Definicija problema: Kriza "vizualne istine" u digitalnom dobu
 Danas se nalazimo u predvečerju ere koju teoretičari nazivaju "post-fotografsko stanje". Fotografija, koja je desetljećima služila kao neosporan dokaz stvarnosti i "prozor u svijet", proživljava duboku ontološku krizu. Razvojem generativnih suparničkih mreža (GAN) i difuzijskih modela, pojam "vizualne istine" prestaje biti vezan uz fizikalni čin hvatanja svjetlosti na senzor. Umjesto toga, svjedočimo hiperprodukciji sadržaja koji redefinira što je "stvarno", stvarajući pritom duboko nepovjerenje u digitalne zapise. Problem koji ovaj rad adresira jest nemogućnost ljudskog promatrača da bez tehnološke asistencije pouzdano odvoji istinu od sintetičke simulacije.
 
-#### 1.2 Predmet istraživanja i hipoteza: AI model "realnog" vs. ljudska percepcija
 Predmet ovog istraživanja je usporedba kognitivnih modela realnosti koje posjeduju ljudi različitih životnih dobi u kontrastu s onim što umjetna inteligencija generira kao "realistično". Hipoteza od koje polazimo jest da AI sustavi ne grade sliku stvarnosti na temelju objektivnih zakona fizike, već na statističkoj vjerojatnosti poretka piksela, čime stvaraju vlastiti model "realnog". S druge strane, pretpostavljamo da ljudska percepcija nije univerzalna već je povijesno i generacijski uvjetovana. Pretpostavljamo da će ispitanici iste dobi imati vrlo slične "slijepe točke" pri procjeni fotografija zbog zajedničkog medijskog iskustva.
 
-#### 1.3 Cilj rada i metodološki okvir
 Glavni cilj rada je empirijski testirati ljudsku sposobnost vizualne diskriminacije u kontroliranim uvjetima. Rad nastoji odgovoriti na pitanje: Možemo li i dalje vjerovati svojim očima? Metodologija se oslanja na autorsku anketu provedenu na 173 ispitanika koji su ocjenjivali 11 ikonskih slika (omjer stvarni/AI). Podaci su zatim procesuirani kroz algoritme mrežne analize (D3.js) kako bi se utvrdila sličnost u odgovorima, čime se dobiva dubinski uvid u mrežnu strukturu ljudskog razmišljanja.
 
 ---
