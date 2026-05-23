@@ -125,43 +125,22 @@ Unatoč značajnim uvidima, istraživanje ima određena ograničenja:
 - **Nedostatak longitudinalnog uvida:** Istraživanje je presječno (cross-sectional). Budući radovi trebali bi pratiti iste ispitanike kroz dulji period kako bi se vidjelo adaptira li se ljudski "diskriminator" brže od strojne generacije.
 
 ---
+### 6. Istraživanje: Percepcija stvarnosti (Ljudska vs. Strojna)
 
-### 6. Zaključak: Sinteza i Budućnost Vizualne Kulture
-
-#### 6.1 Sinteza rezultata: Jesu li ljudi i strojevi podjednako "zavarani"?
-Istraživanje je pokazalo da je "zavarivanje" dvosmjeran proces. Dok strojevi (AI detektori) mogu biti zavarani suptilnim promjenama u teksturi koje imitiraju organski šum, ljudi su češće zavarani semantičkim i emocionalnim kontekstom. Rezultati sugeriraju da strojevi griješe na razini matematike, dok ljudi griješe na razini povjerenja. Paradoksalno, što AI model više "griješi" u smislu odstupanja od savršenstva (dodajući zrnatost ili blagu zamućenost), to je ljudskom oku "vjerodostojniji".
-
-Glavno istraživačko pitanje postavljeno u uvodu – "Možemo li i dalje vjerovati svojim očima?" – dobilo je kompleksan odgovor: Možemo, ali samo ako su oči potkrijepljene tehničkom sumnjom i poznavanjem AI artefakata. Potvrdili smo da dobna kohorta nije samo demografski podatak, već kognitivni okvir koji određuje uspješnost vizualne diskriminacije. 
-
-#### 6.2 AI kao standardan alat i promjena percepcije istine
-U budućnosti vizualne kulture, AI prestaje biti "uljez" i postaje standardan alat za produkciju slika. To fundamentalno mijenja našu percepciju istine: prelazimo iz ere u kojoj je fotografija bila "dokaz onoga što je bilo" u eru u kojoj je fotografija "jedna od mogućih interpretacija". Ovaj pomak vodi ka eroziji objektivne stvarnosti, gdje će se istinitost vjerojatno dokazivati metapodacima i kriptografskim certifikatima, a ne više samim vizualnim dojmom.
-
-Umjesto gledanja AI-ja isključivo kao prijetnje istini, budućnost leži u simbiotskoj suradnji. Ljudska kreativnost, empatija i moralni kompas usmjeravat će generativnu moć strojeva. Vizualno stvaralaštvo će evoluirati iz "manualnog snimanja" u "konceptualno kuriranje", gdje će najcjenjenija vještina biti sposobnost prepoznavanja i očuvanja autentične ljudske emocije u moru algoritamski savršenih vizuala.
-
-#### 6.3 Završni osvrt
-Ovaj seminar i mrežna analiza (n=173) služe kao početna točka za razumijevanje novih društvenih dinamika koje diktira umjetna inteligencija. Dok se digitalni i biološki neuroni nastavljaju ispreplitati, naša kolektivna odgovornost ostaje očuvanje kritičke svijesti i vizualne pismenosti kao posljednje obrane ljudske autentičnosti u digitalnom pejzažu.
-
----
-
-### 7. Istraživanje: Percepcija stvarnosti (Ljudska vs. Strojna)
-
-#### 7.1 Metodologija istraživanja i ljestvice realističnosti
+#### 6.1 Metodologija istraživanja i ljestvice realističnosti
 U primijenjenoj anketi, uz binarni izbor (Stvarno/AI), ispitanici su koristili i ljestvicu samoprocjene znanja i sigurnosti (1–5). Izbor fotografija nije bio slučajan; portreti su odabrani zbog njihove kognitivne težine – ljudski mozak je evolucijski "programiran" za prepoznavanje lica, dok su pejzaži (npr. "Earthrise") testirali percepciju prostorne logike i digitalnog "shadinga". 
 
-#### 7.2 Analiza rezultata i komparativna točnost
 - **Ljudska uspješnost:** Naši ispitanici postizali su prosječnu točnost od otprilike 62-68% u pročišćenim mrežnim skupinama. Ovo je nešto više od globalnih znanstvenih izvora koji navode točnost od oko **56-58%**. Ova razlika može se pripisati specifičnosti uzorka u kojem dominiraju studenti (digitalni urođenici) koji su izloženi većem volumenu vizualnih podataka.
 - **Portretna zabluda:** Rezultati potvrđuju tezu da ljudi najviše griješe kod portreta (npr. "Afghan Girl" AI). Razlog je subverzivan: AI generira portrete koji su "realniji od realnih" – uklanja asimetrije i dodaje mikroteksture koje ljudi podsvjesno povezuju s vrhunskom profesionalnom fotografijom, a ne s nesavršenim dokumentarnim snimkom.
 
-#### 7.3 Strojna procjena vs. Ljudska procjena
-Dok ljudi sliku analiziraju **semantički** (pokušavaju naći smisao u emociji djeteta koje pada), AI detektori istu sliku gledaju **frekvencijski**. Strojna procjena traži obrasce u šumu piksela koje ljudsko oko ne vidi. Zanimljivo je da su naši ispitanici na fotografiji "Fire Escape Collapse" (koja je u testu bila AI interpretacija) detektirali AI ne zbog piksela, već zbog "anatomskog osjećaja nelagode", što AI detektori često promašuju.
 
-#### 7.4 Diskusija: Prag "dovoljne stvarnosti"
+#### 6.2 Diskusija: Prag "dovoljne stvarnosti"
 U kojem trenutku AI slika postaje "dovoljno stvarna"? Naše istraživanje sugerira da je to trenutak kada se uklone logičke pogreške u sjenama i kada broj udova postane ispravan. Kada AI dostigne taj prag, gledatelj prestaje analizirati sliku kao objekt i počinje je doživljavati kao događaj. Kontekst povijesti ovdje igra ulogu filtera – ako slika izgleda kao poznata povijesna scena, mozak "popunjava rupe" i prihvaća je bez otpora.
 
-#### 7.5 Kako AI "razmišlja" o realizmu
 Sam model (Generator) ne teži realnosti u filozofskom smislu, već teži **pobjedi nad Diskriminatorom**. Za AI model, "znakovi realizma" su zapravo statističke podudarnosti. Slika mu je "vještačka" ako odudara od distribucije podataka na kojima je treniran. Paradoksalno, AI model stvara realizam kroz neprestano sumnjanje u sebe (G-D natjecanje), dok čovjek realizam prihvaća kroz povjerenje u viđeno.
+---
 
-### 8. Tehnološka arhitektura sustava za mrežnu analizu (App Data Flow)
+### 7. Tehnološka arhitektura sustava za mrežnu analizu (App Data Flow)
 
 Kao sastavni dio ovog seminara razvijena je interaktivna aplikacija koja omogućuje mrežnu vizualizaciju podataka u stvarnom vremenu. Ispod je prikazan tehnički tijek podataka:
 
@@ -185,8 +164,26 @@ graph TD
 ```
 
 Aplikacija omogućuje istraživaču da dinamički mijenja pragove sličnosti, čime se u realnom vremenu mijenja topologija mreže, otkrivajući skrivene korelacije unutar demografskih skupina.
+---
+
+### 8. Zaključak: Sinteza i Budućnost Vizualne Kulture
+
+#### 8.1 Sinteza rezultata: Jesu li ljudi i strojevi podjednako "zavarani"?
+Istraživanje je pokazalo da je "zavarivanje" dvosmjeran proces. Dok strojevi (AI detektori) mogu biti zavarani suptilnim promjenama u teksturi koje imitiraju organski šum, ljudi su češće zavarani semantičkim i emocionalnim kontekstom. Rezultati sugeriraju da strojevi griješe na razini matematike, dok ljudi griješe na razini povjerenja. Paradoksalno, što AI model više "griješi" u smislu odstupanja od savršenstva (dodajući zrnatost ili blagu zamućenost), to je ljudskom oku "vjerodostojniji".
+
+Glavno istraživačko pitanje postavljeno u uvodu – "Možemo li i dalje vjerovati svojim očima?" – dobilo je kompleksan odgovor: Možemo, ali samo ako su oči potkrijepljene tehničkom sumnjom i poznavanjem AI artefakata. Potvrdili smo da dobna kohorta nije samo demografski podatak, već kognitivni okvir koji određuje uspješnost vizualne diskriminacije. 
+
+#### 8.2 AI kao standardan alat i promjena percepcije istine
+U budućnosti vizualne kulture, AI prestaje biti "uljez" i postaje standardan alat za produkciju slika. To fundamentalno mijenja našu percepciju istine: prelazimo iz ere u kojoj je fotografija bila "dokaz onoga što je bilo" u eru u kojoj je fotografija "jedna od mogućih interpretacija". Ovaj pomak vodi ka eroziji objektivne stvarnosti, gdje će se istinitost vjerojatno dokazivati metapodacima i kriptografskim certifikatima, a ne više samim vizualnim dojmom.
+
+Umjesto gledanja AI-ja isključivo kao prijetnje istini, budućnost leži u simbiotskoj suradnji. Ljudska kreativnost, empatija i moralni kompas usmjeravat će generativnu moć strojeva. Vizualno stvaralaštvo će evoluirati iz "manualnog snimanja" u "konceptualno kuriranje", gdje će najcjenjenija vještina biti sposobnost prepoznavanja i očuvanja autentične ljudske emocije u moru algoritamski savršenih vizuala.
+
+#### 8.3 Završni osvrt
+Ovaj seminar i mrežna analiza (n=173) služe kao početna točka za razumijevanje novih društvenih dinamika koje diktira umjetna inteligencija. Dok se digitalni i biološki neuroni nastavljaju ispreplitati, naša kolektivna odgovornost ostaje očuvanje kritičke svijesti i vizualne pismenosti kao posljednje obrane ljudske autentičnosti u digitalnom pejzažu.
 
 ---
+
+
 
 ### Reference
 - Survey Data (2026). *Anketa o percepciji AI fotografije (n=173)*. Podaci dostupni na: https://docs.google.com/spreadsheets/d/12H6iS46jvH_SXczyR7TIXoT000mGTM8SXX7LJtnMDog/edit?usp=sharing
