@@ -29,16 +29,22 @@ Glavni cilj rada je empirijski testirati ljudsku sposobnost vizualne diskriminac
 ### 2. Povijesni razvoj i funkcioniranje umjetne inteligencije
 
 #### 2.1 Tehnološki temelji i razvoj vizualne umjetne inteligencije
-Umjetna inteligencija nije nastala u vakuumu; njezini tehnološki temelji počivaju na desetljećima napretka u matematičkoj logici, statistici i računalnoj snazi. Prije nego što je vizualna AI mogla generirati hiper-realistične portrete, prethodili su joj sustavi za digitalnu obradu signala, rani algoritmi za prepoznavanje uzoraka i razvoj računalnog vida. Ključni poticaj bio je razvoj grafičkih procesorskih jedinica (GPU) koje su omogućile paralelno procesiranje milijardi operacija potrebnih za modeliranje kompleksnih vizualnih struktura.
+Umjetna inteligencija spada u nebiološku inteligenciju koja se ponekad naziva i aI – alfa inteligencija ili apstraktna inteligencija (engl. Abstract Intelligence), no to nije jedina nebiološka inteligencija. Uz nju se kao nebiološke inteligencije spominju i računska inteligencija (engl. CI -
+Computational Intelligence) i raspodijeljena ili distribuirana umjetna inteligencija Zajedno s biološkom inteligencijom, inteligencijom svojstvenom
+živim bićima, ova tri tipa inteligencije čine tzv. A B C D inteligencije nastale prema engleskim riječima Artificial - Biological - Computational - Distributed Artificial Intelligence.
+Umjetna inteligencija nije nastala u vakuumu; njezini tehnološki temelji počivaju na desetljećima napretka u matematičkoj logici, statistici i računalnoj snazi. Prije nego što je vizualna AI mogla generirati hiper-realistične portrete, prethodili su joj sustavi za digitalnu obradu signala, rani algoritmi za prepoznavanje uzoraka i razvoj računalnog vida. Ključni poticaj bio je razvoj grafičkih procesorskih jedinica (GPU) koje su omogućile paralelno procesiranje milijardi operacija potrebnih za modeliranje kompleksnih vizualnih struktura. 
 
 #### 2.2 Od Turingovog testa do ere dubokog učenja
+Umjetna je inteligencija relativno mlada znanstvena disciplina koja se naslanja na znanja do kojih se došlo stoljetnim istraživanjima u područjima filozofije, matematike, psihologije, neurologije, kibernetike i suvremenog računarstva. Složenost područja umjetne inteligencije je upravo u tome što je multidisciplinarna i ujedinjuje znanja iz područja tehničkih, društvenih i bioloških znanosti.
+
 Evolucija AI-a može se pratiti kroz nekoliko ključnih faza:
-- **Turingov test (1950.):** Alan Turing postavlja temeljno pitanje o stroju koji oponaša ljudsku inteligenciju.
+- **Turingov test (1950.):** Alan Turing postavlja temeljno pitanje o stroju koji oponaša ljudsku inteligenciju. Godinu dana kasnije sagrađen je SNARC,  prvo računalo temeljeno na umjetnim neuronskim
+mrežama, prvi pionirski napor u području koje je dobilo ime umjetna inteligencija.
 - **Radionica u Dartmouthu (1956.):** Službeno rođenje discipline gdje su vizionari poput Johna McCarthyja i Marvina Minskoga postavili ambiciozne ciljeve za razvoj "inteligentnih strojeva".
 - **Moderna era dubokog učenja (Deep Learning):** Oko 2012. godine, konvolucijske neuronske mreže (CNN) donose revoluciju u prepoznavanju slika, omogućujući strojevima da "uče" iz ogromnih skupova podataka (Big Data) bez eksplicitnog programiranja svakog pravila.
 
 #### 2.3 Kako AI "misli": Razlika između biološke i nebiološke inteligencije
-Iako se često koristi termin "razmišljanje", procesi u AI-u su fundametnalno različiti od bioloških. Ljudski mozak koristi elektrokemijske impulse i asocijativno učenje s visokom energetskom efikasnošću. Nasuprot tome, nebiološka inteligencija oslanja se na matematičku optimizaciju.
+Umjetna inteligencija zapravo ne "misli" poput čovjeka, ona ne posjeduje svijest, emocije ni razumijevanjeIako se često koristi termin "razmišljanje", procesi u AI-u su fundametnalno različiti od bioloških. Umjesto toga, ona koristi naprednu matematiku, statistiku i prepoznavanje obrazaca kako bi oponašala ljudsko zaključivanje i stvaranje sadržaja. Ljudski mozak koristi elektrokemijske impulse i asocijativno učenje s visokom energetskom efikasnošću. Nasuprot tome, nebiološka inteligencija oslanja se na matematičku optimizaciju.
 - **Umjetne neuronske mreže:** Inspirirane biologijom, sastoje se od slojeva digitalnih čvorova.
 - **Perceptroni:** Kao osnovni "digitalni neuroni", perceptroni primaju ulazne signale, dodjeljuju im težinske vrijednosti i aktiviraju se ako signal premaši određeni prag. Oni su temelj prepoznavanja vizualnih uzoraka, omogućujući stroju da razlikuje rubove, oblike i konačno cijele objekte na fotografiji.
 
@@ -55,13 +61,11 @@ Ovo natjecanje rezultira slikama koje su toliko bliske stvarnosti da ih ljudski 
 #### 3.1 Dizajn ankete, instrumentacijski okvir i uzorak
 Istraživanje je strukturirano kao kvantitativni eksperiment s elementima kvalitativne analize. Uzorak od 173 ispitanika prikupljen je putem online platforme, osiguravajući anonimnost i raznolikost demografskih profila (stratificirani uzorak). Instrument istraživanja sastojao se od 11 pažljivo odabranih vizualnih podražaja. Svaki ispitanik morao je donijeti binarnu odluku: "Stvarna fotografija" ili "Stvoreno uz pomoć umjetne inteligencije". Ovakav prisilni izbor (forced choice) eliminirao je neutralne odgovore, potičući ispitanike da se oslone na svoje kognitivne heuristike.
 
-#### 3.2 Vizualni materijal i "Ground Truth" kriteriji
-U eksperimentu je korišteno pet autentičnih dokumentarnih fotografija koje su obilježile povijest (npr. ikonografska "Migrant Mother" Dorothee Lange i potresna "Burning Monk" Malcolma Brownea). Nasuprot njima, šest fotografija generirano je ili modificirano pomoću naprednih AI modela. Cilj je bio testirati ne samo vizualnu oštrinu, već i povijesnu pismenost. Na primjer, rekreacija "Abbey Road" omota testirala je prepoznavanje sitnih anomalija u poznatom okruženju, dok je "Afghan Girl" verzija u AI izvedbi testirala prepoznavanje teksturalnog savršenstva koje je često "izdajica" digitalnog izvora.
+U istraživanju je korišteno pet autentičnih dokumentarnih fotografija koje su obilježile povijest (npr. ikonografska "Migrant Mother" Dorothee Lange i potresna "Burning Monk" Malcolma Brownea). Nasuprot njima, šest fotografija generirano je ili modificirano pomoću naprednih AI modela. Cilj je bio testirati ne samo vizualnu oštrinu, već i povijesnu pismenost. Na primjer, rekreacija "Abbey Road" omota testirala je prepoznavanje sitnih anomalija u poznatom okruženju, dok je "Afghan Girl" verzija u AI izvedbi testirala prepoznavanje teksturalnog savršenstva koje je često "izdajica" digitalnog izvora.
 
-#### 3.3 Mrežna analiza i matematički model sličnosti
+#### 3.2 Mrežna analiza i matematički model sličnosti, kontrolne varijable
 Za obradu podataka primijenjena je matematički utemeljena mrežna analiza sličnosti. U ovom modelu, svaki ispitanik predstavlja čvor u grafu. Brid (veza) između dva čvora uspostavlja se isključivo ako ispitanici dijele visoki stupanj podudarnosti u svojim procjenama (Similarity Threshold >= 8/11). Primjenom Force-Directed algoritma (D3.js), mreža se prirodno klastrira, vizualizirajući mjehuriće istomišljenika. Ovakav pristup omogućio nam je da izbjegnemo puko promatranje aritmetičkih sredina i zaronimo u strukturalnu homofiliju unutar demografskih skupina.
 
-#### 3.4 Kontrolne varijable i osiguranje kvalitete podataka
 Kako bi se osigurala unutarnja valjanost istraživanja, uvedene su ključne kontrolne varijable:
 1.  **Prethodno iskustvo s AI alatima:** Ispitanici su upitani o učestalosti korištenja GenAI alata (npr. Midjourney, DALL-E, ChatGPT). Ova varijabla služi za razlikovanje "tehničke stručnosti" od "generacijske intuicije". Pokazalo se da čak i bez direktnog iskustva, mlađe generacije postižu visoke rezultate, što sugerira postojanje šireg "digitalnog habitusa".
 2.  **Uređaj za pregled (Screen Factor):** Kontrolirana je veličina ekrana na kojem su ispitanici promatrali vizuale, budući da mobilni uređaji mogu sakriti sitne AI artefakte koje desktop monitori jasno otkrivaju.
@@ -127,16 +131,14 @@ Unatoč značajnim uvidima, istraživanje ima određena ograničenja:
 #### 6.1 Sinteza rezultata: Jesu li ljudi i strojevi podjednako "zavarani"?
 Istraživanje je pokazalo da je "zavarivanje" dvosmjeran proces. Dok strojevi (AI detektori) mogu biti zavarani suptilnim promjenama u teksturi koje imitiraju organski šum, ljudi su češće zavarani semantičkim i emocionalnim kontekstom. Rezultati sugeriraju da strojevi griješe na razini matematike, dok ljudi griješe na razini povjerenja. Paradoksalno, što AI model više "griješi" u smislu odstupanja od savršenstva (dodajući zrnatost ili blagu zamućenost), to je ljudskom oku "vjerodostojniji".
 
-#### 6.2 Odgovor na istraživačka pitanja
 Glavno istraživačko pitanje postavljeno u uvodu – "Možemo li i dalje vjerovati svojim očima?" – dobilo je kompleksan odgovor: Možemo, ali samo ako su oči potkrijepljene tehničkom sumnjom i poznavanjem AI artefakata. Potvrdili smo da dobna kohorta nije samo demografski podatak, već kognitivni okvir koji određuje uspješnost vizualne diskriminacije. 
 
-#### 6.3 AI kao standardan alat i promjena percepcije istine
+#### 6.2 AI kao standardan alat i promjena percepcije istine
 U budućnosti vizualne kulture, AI prestaje biti "uljez" i postaje standardan alat za produkciju slika. To fundamentalno mijenja našu percepciju istine: prelazimo iz ere u kojoj je fotografija bila "dokaz onoga što je bilo" u eru u kojoj je fotografija "jedna od mogućih interpretacija". Ovaj pomak vodi ka eroziji objektivne stvarnosti, gdje će se istinitost vjerojatno dokazivati metapodacima i kriptografskim certifikatima, a ne više samim vizualnim dojmom.
 
-#### 6.4 Budućnost suradnje čovjeka i AI-ja u vizualnom stvaralaštvu
 Umjesto gledanja AI-ja isključivo kao prijetnje istini, budućnost leži u simbiotskoj suradnji. Ljudska kreativnost, empatija i moralni kompas usmjeravat će generativnu moć strojeva. Vizualno stvaralaštvo će evoluirati iz "manualnog snimanja" u "konceptualno kuriranje", gdje će najcjenjenija vještina biti sposobnost prepoznavanja i očuvanja autentične ljudske emocije u moru algoritamski savršenih vizuala.
 
-#### 6.5 Završni osvrt
+#### 6.3 Završni osvrt
 Ovaj seminar i mrežna analiza (n=173) služe kao početna točka za razumijevanje novih društvenih dinamika koje diktira umjetna inteligencija. Dok se digitalni i biološki neuroni nastavljaju ispreplitati, naša kolektivna odgovornost ostaje očuvanje kritičke svijesti i vizualne pismenosti kao posljednje obrane ljudske autentičnosti u digitalnom pejzažu.
 
 ---
